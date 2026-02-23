@@ -1,0 +1,50 @@
+body {
+    background-color: red;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.group {
+    background-color: white;
+    border-radius: 12px;      
+    padding: 20px;            
+    margin: 20px;             
+}
+
+.title {
+    text-align: center;
+    padding: 3rem;
+    font-size: 3rem;
+    font-family: 'Cinzel', serif;
+}
+
+.recipe-image {
+  border: 3px solid #000;
+  border-radius: 10px;
+}
+
+
+h2 {
+    text-decoration: underline;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.linkeSpalte {
+    text-align: center;
+}
+
+a:hover {
+    color: red;
+}
