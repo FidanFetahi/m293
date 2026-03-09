@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+  background-color: rgb(21, 9, 71);
+  font-family: sans-serif;
+}
+
+header {
+  background-color: white;
+  border-radius: 15px;
+  padding: 1.5rem 1.5rem 0.75rem 1.5rem;
+}
+
+footer {
+  background-color: white;
+  border-radius: 15px;
+  padding: 1.5rem;
+  margin-top: 2rem;
+}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  margin: 1.5rem;
+}
+
+footer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
+.title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  text-align: center;
+  padding: 2rem;
+}
+
+.description {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #666;
+  margin: 0 2rem 1rem 2rem;
+  line-height: 1.6;
+}
+
+.under-title {
+  font-size: 1.5rem;
+}
+
+.main-section {
+  background-color: white;
+  border-radius: 15px;
+  padding: 0.5rem 0.5rem 2rem 0.5rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: fit-content;
+  justify-self: center;
+}
+
+.main-section img {
+  width: 18rem;
+  height: 18rem;
+  object-fit: cover;
+  border-radius: 15px;
+  margin-bottom: 1rem;
+}
+
+.main-section h3 {
+  margin: 0;
+  font-size: 1rem;
+  text-align: center;
+  color: #333;
+}
+
+.footer-section h3 {
+  margin-top: 0;
+  font-size: 1rem;
+}
+
+.footer-section p {
+  margin: 0;
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+.footer-section a {
+  color: black;
+  text-decoration: none;
+}
+
+.footer-section a:hover {
+  text-decoration: underline;
+}
+
+.footer-copyright {
+  grid-column: 1 / -1;
+  text-align: center;
+  font-size: 0.85rem;
+  color: #666;
+  margin: 0;
+  padding-top: 1rem;
+  border-top: 1px solid #ddd;
+}
+
