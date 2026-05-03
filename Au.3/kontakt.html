@@ -1,0 +1,152 @@
+﻿<!DOCTYPE html>
+<html lang='de-CH'>
+<head>
+  <meta charset='UTF-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+  <title>Sole District | Kontakt</title>
+  <meta name='description' content='Kontaktseite mit Teamvorstellung und direkter Anfrageoption.'>
+  <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg">
+  <link rel='preconnect' href='https://fonts.googleapis.com'>
+  <link rel='preconnect' href='https://fonts.gstatic.com' crossorigin>
+  <link href='https://fonts.googleapis.com/css2?family=Antonio:wght@400;600;700&family=Space+Grotesk:wght@400;500;700&display=swap' rel='stylesheet'>
+  <link rel='stylesheet' href='assets/css/styles.css'>
+  <script defer src='assets/js/mobile-nav.js'></script>
+  <script defer src='assets/js/form-submissions.js'></script>
+</head>
+<body data-page='contact'>
+  <div class='site-shell'>
+    <header class='site-header'>
+      <div class='topbar'>
+        <p>Fragen zu Bestellung, Retouren, Sizing oder Partnerschaften? Unser Team antwortet direkt.</p>
+      </div>
+      <div class='nav-wrap container'>
+        <a class='brand' href='index.html' aria-label='Sole District Startseite'>
+          <span class='brand-mark'>SD</span>
+          <span class='brand-copy'>
+            <strong>Sole District</strong>
+            <span>Curated Sneaker Boutique</span>
+          </span>
+        </a>
+        <button class='nav-toggle' type='button' aria-expanded='false' aria-controls='primary-nav' aria-label='Navigation öffnen'>
+          <span class='nav-toggle-label'>Menü</span>
+          <span class='nav-toggle-icon' aria-hidden='true'>
+            <span></span>
+            <span></span>
+          </span>
+        </button>
+        <nav id='primary-nav' class='main-nav' aria-label='Hauptnavigation'>
+          <a href='index.html'>Start</a>
+          <a href='produkte.html'>Produkte</a>
+          <a class='is-active' href='kontakt.html'>Kontakt</a>
+          <a class='nav-cta' href='#contact-form'>Anfrage senden</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class='page-intro container'>
+        <div>
+          <p class='eyebrow'>Kontakt</p>
+          <h1>Das Team hinter Sole District.</h1>
+        </div>
+        <p class='lead'>Hier erreichst du unser Team f&uuml;r Fragen zu Produkten, Bestellungen, Lieferungen oder Partnerschaften.</p>
+      </section>
+
+      <section class='section container'>
+        <div class='team-grid'>
+          <article class='team-card'>
+            <span class='team-role'>Inhaber und Beratung</span>
+            <h2>Fidan Fetahi</h2>
+            <p>K&uuml;mmert sich um das Sortiment, ber&auml;t bei Fragen zu Modellen und unterst&uuml;tzt bei Bestellungen.</p>
+          </article>
+          <article class='team-card'>
+            <span class='team-role'>Junior</span>
+            <h2>Eduart Maliqi</h2>
+            <p>Lehrling der nur aushilft und zuschaut wobei er vieles lernt vom Inhaber</p>
+          </article>
+        </div>
+      </section>
+
+      <section class='section container contact-layout'>
+        <div class='contact-card'>
+          <p class='eyebrow'>Store Info</p>
+          <h2>Besuche uns im Kreis 4</h2>
+          <p>Langstrasse 110<br>8004 Z&uuml;rich</p>
+          <p>Mo-Fr 10:00-18:30 Uhr<br>Sa 11:00-17:00 Uhr</p>
+          <a class='inline-link' href='mailto:hello@soledistrict.ch'>hello@soledistrict.ch</a>
+        </div>
+
+        <form id='contact-form' class='contact-form' data-api-form='contact' action='https://formspree.io/f/xeevqowb' method='POST'>
+          <input type='hidden' name='formType' value='Kontaktanfrage'>
+          <input type='hidden' name='_subject' value='Neue Kontaktanfrage ueber Sole District'>
+          <div class='form-grid'>
+            <label>
+              Name
+              <input type='text' name='name' placeholder='Vorname Nachname' autocomplete='name' required>
+            </label>
+            <label>
+              E-Mail
+              <input type='email' name='email' placeholder='name@example.com' autocomplete='email' required>
+            </label>
+            <label>
+              Betreff
+              <select name='subject' required>
+                <option value=''>Bitte w&auml;hlen</option>
+                <option value='Bestellung'>Bestellung</option>
+                <option value='Lieferung'>Lieferung</option>
+                <option value='Retouren'>Retouren</option>
+                <option value='Collab'>Collab</option>
+              </select>
+            </label>
+            <label>
+              Telefonnummer
+              <input type='tel' name='phone' placeholder='+41 79 123 45 67' autocomplete='tel'>
+            </label>
+          </div>
+          <label>
+            Nachricht
+            <textarea name='message' rows='6' placeholder='Worum geht es genau?' required></textarea>
+          </label>
+          <button class='button button-primary' type='submit'>Anfrage direkt senden</button>
+          <p class='form-note'>Schreib uns direkt, wir melden uns so schnell wie m&ouml;glich zur&uuml;ck.</p>
+          <p class='form-feedback' aria-live='polite'></p>
+        </form>
+      </section>
+    </main>
+
+    <footer class='site-footer'>
+      <div class='container footer-grid'>
+        <div>
+          <a class='brand brand-footer' href='index.html'>
+            <span class='brand-mark'>SD</span>
+            <span class='brand-copy'>
+              <strong>Sole District</strong>
+              <span>Z&uuml;rich Sneaker Boutique</span>
+            </span>
+          </a>
+          <p>Direkter Kontakt zu unserem Team, dem Store und allen wichtigen Anlaufstellen.</p>
+        </div>
+        <div>
+          <h3>Navigation</h3>
+          <a href='index.html'>Start</a>
+          <a href='produkte.html'>Produkte</a>
+          <a href='kontakt.html'>Kontakt</a>
+        </div>
+        <div>
+          <h3>Direktkontakt</h3>
+          <a href='mailto:hello@soledistrict.ch'>hello@soledistrict.ch</a>
+          <a href='tel:+41445551212'>+41 44 555 12 12</a>
+        </div>
+        <div>
+          <h3>Credits</h3>
+          <p>Pers&ouml;nlicher Service rund um Sneaker, Store und aktuelle Releases</p>
+        </div>
+      </div>
+      <div class='footer-meta container'>
+        <p>&copy; 2026 Sole District</p>
+        <p>Kontaktseite mit Teamvorstellung und direkter Anfrageoption</p>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>

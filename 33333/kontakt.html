@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt | Brutal Step</title>
+    <meta
+      name="description"
+      content="Kontaktseite mit Team-Informationen und Kontaktformular mit Betreffauswahl für den Sneaker-Shop Brutal Step."
+    >
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-row">
+        <a class="brand" href="index.html" aria-label="Brutal Step Startseite">
+          <span class="brand-badge">BS</span>
+          <span>
+            <span class="brand-mark">Brutal Step</span>
+            <span class="brand-sub">Sneaker Shop</span>
+          </span>
+        </a>
+        <nav class="site-nav" aria-label="Hauptnavigation">
+          <ul>
+            <li><a href="index.html">Startseite</a></li>
+            <li><a href="produkte.html">Produkte</a></li>
+            <li><a href="detail.html">Detailseite</a></li>
+            <li><a class="active" href="kontakt.html">Kontakt</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="section">
+      <div class="container">
+        <section class="contact-layout">
+          <div>
+            <span class="eyebrow">Kontaktseite</span>
+            <h1 class="page-title">Fragen zum Shop? Schreib direkt ans Team.</h1>
+            <p class="page-lead">
+              Die Kontaktseite kombiniert Team-Infos mit einem klaren Formular. Das Dropdown für den
+              Betreff ist bewusst eingebaut, weil es so im Auftrag verlangt ist.
+            </p>
+            <div class="contact-grid">
+              <article class="contact-card">
+                <h3>Showroom</h3>
+                <ul class="store-list">
+                  <li>Limmatquai 88, Zürich</li>
+                  <li>Mo-Fr 11:00 bis 19:00</li>
+                  <li>Sa 10:00 bis 18:00</li>
+                </ul>
+              </article>
+              <article class="contact-card">
+                <h3>Direkt</h3>
+                <ul class="store-list">
+                  <li>crew@brutalstep.shop</li>
+                  <li>+41 44 555 23 93</li>
+                  <li>Antwort meist am selben Tag</li>
+                </ul>
+              </article>
+            </div>
+          </div>
+
+          <aside class="contact-form-shell">
+            <span class="eyebrow">Kontaktformular</span>
+            <h2 class="section-title">Formular mit Betreffauswahl</h2>
+            <form action="mailto:crew@brutalstep.shop" method="post" enctype="text/plain">
+              <div class="form-grid">
+                <div class="field">
+                  <label for="contact-name">Name</label>
+                  <input id="contact-name" name="name" type="text" placeholder="Vor- und Nachname" required>
+                </div>
+                <div class="field">
+                  <label for="contact-email">E-Mail</label>
+                  <input id="contact-email" name="email" type="email" placeholder="name@mail.ch" required>
+                </div>
+                <div class="field full">
+                  <label for="contact-subject">Betreff</label>
+                  <select id="contact-subject" name="betreff" required>
+                    <option value="">Bitte wählen</option>
+                    <option value="Bestellung">Bestellung</option>
+                    <option value="Produktfrage">Produktfrage</option>
+                    <option value="Retoure">Retoure</option>
+                    <option value="Lieferung">Lieferung</option>
+                    <option value="Zusammenarbeit">Zusammenarbeit</option>
+                  </select>
+                </div>
+                <div class="field full">
+                  <label for="contact-message">Nachricht</label>
+                  <textarea id="contact-message" name="nachricht" placeholder="Schreibe hier deine Frage zum Shop oder zu einem Sneaker." required></textarea>
+                </div>
+              </div>
+              <div class="form-actions">
+                <input type="submit" value="Nachricht senden">
+              </div>
+            </form>
+          </aside>
+        </section>
+
+        <section class="section">
+          <div class="section-head">
+            <span class="eyebrow">Team</span>
+            <h2 class="section-title">Die Crew hinter dem Shop</h2>
+            <p class="section-lead">
+              Statt leerer Platzhalter gibt es hier kurze Team-Infos, wie im PDF verlangt.
+            </p>
+          </div>
+
+          <div class="team-grid">
+            <article class="team-card">
+              <span class="team-badge">LS</span>
+              <h3>Lina Serra</h3>
+              <p>Shop Lead. Zuständig für Drops, Sortiment und den visuellen roten Faden.</p>
+            </article>
+            <article class="team-card">
+              <span class="team-badge">DM</span>
+              <h3>Dario Meier</h3>
+              <p>Produktberatung. Kümmert sich um Grössen, Passformen und Modellfragen.</p>
+            </article>
+            <article class="team-card">
+              <span class="team-badge">AY</span>
+              <h3>Aylin Yildiz</h3>
+              <p>Order Desk. Betreut Bestellungen, Lieferstatus und Rückfragen aus dem Formular.</p>
+            </article>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <section class="footer-box">
+          <h2 class="footer-brand">Brutal Step</h2>
+          <p>Kontakt, Team und Betreffauswahl kompakt auf einer Seite.</p>
+        </section>
+        <section class="footer-box">
+          <h3>Kontakt</h3>
+          <ul class="footer-list">
+            <li>crew@brutalstep.shop</li>
+            <li>+41 44 555 23 93</li>
+            <li>Zürich Showroom</li>
+          </ul>
+        </section>
+        <section class="footer-box">
+          <h3>Navigation</h3>
+          <ul class="footer-list">
+            <li><a href="index.html">Startseite</a></li>
+            <li><a href="produkte.html">Produkte</a></li>
+            <li><a href="detail.html">Detailseite</a></li>
+          </ul>
+        </section>
+      </div>
+    </footer>
+  </body>
+</html>

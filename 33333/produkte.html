@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produkte | Brutal Step</title>
+    <meta
+      name="description"
+      content="Produktübersicht mit 10 Sneakern, Kategoriefilter, Preisen, Beschreibungen und Links zur Detailseite."
+    >
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-row">
+        <a class="brand" href="index.html" aria-label="Brutal Step Startseite">
+          <span class="brand-badge">BS</span>
+          <span>
+            <span class="brand-mark">Brutal Step</span>
+            <span class="brand-sub">Sneaker Shop</span>
+          </span>
+        </a>
+        <nav class="site-nav" aria-label="Hauptnavigation">
+          <ul>
+            <li><a href="index.html">Startseite</a></li>
+            <li><a class="active" href="produkte.html">Produkte</a></li>
+            <li><a href="detail.html">Detailseite</a></li>
+            <li><a href="kontakt.html">Kontakt</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="section">
+      <div class="container">
+        <section class="page-hero">
+          <div class="page-copy">
+            <span class="eyebrow">Produktseite</span>
+            <h1 class="page-title">Alle Sneaker in einer Übersicht.</h1>
+            <p class="page-lead">
+              Hier sind alle 10 Produkte gesammelt. Der Filter zeigt entweder das ganze Sortiment
+              oder nur eine bestimmte Kategorie. Jede Karte führt weiter zur Detailseite.
+            </p>
+            <div class="page-actions">
+              <a class="button" href="detail.html#order-form">Direkt bestellen</a>
+              <a class="button secondary" href="kontakt.html">Frage zum Shop</a>
+            </div>
+          </div>
+          <aside class="page-art">
+            <div class="art-panel">
+              <h2 class="card-title">Sortiment ohne Umwege</h2>
+              <p>
+                Grid-Layout, klare Karten, schnelle Orientierung. Genau passend zum Auftrag:
+                Übersicht, Kategorien und Weiterleitung zur Detailseite.
+              </p>
+            </div>
+            <div class="art-grid">
+              <div>10 Produkte</div>
+              <div>4 Kategorien</div>
+              <div>Preis klar sichtbar</div>
+              <div>Direkter Detail-Link</div>
+            </div>
+          </aside>
+        </section>
+
+        <section class="section">
+          <div class="filter-shell">
+            <input class="filter-input" type="radio" name="shop-filter" id="filter-all" checked>
+            <input class="filter-input" type="radio" name="shop-filter" id="filter-running">
+            <input class="filter-input" type="radio" name="shop-filter" id="filter-street">
+            <input class="filter-input" type="radio" name="shop-filter" id="filter-court">
+            <input class="filter-input" type="radio" name="shop-filter" id="filter-limited">
+
+            <div class="filter-controls" aria-label="Produktfilter">
+              <label for="filter-all">Alle</label>
+              <label for="filter-running">Running</label>
+              <label for="filter-street">Street</label>
+              <label for="filter-court">Court</label>
+              <label for="filter-limited">Limited</label>
+            </div>
+
+            <div class="product-grid">
+              <article class="product-card running">
+                <div class="image-box">
+                  <img src="https://images.unsplash.com/photo-1714396239546-f2f913567a19?auto=format&fit=crop&w=900&q=80" alt="Apex Glide 04 Sneaker in Schwarz und Weiss">
+                </div>
+                <div class="tag-row"><span class="tag">Running</span></div>
+                <h2 class="card-title">Apex Glide 04</h2>
+                <p>Gedämpfter Runner für tägliche Kilometer mit stabiler Ferse und ruhiger Front.</p>
+                <div class="price-line"><span class="price">CHF 189</span><a class="button ghost" href="detail.html#apex-glide">Details</a></div>
+              </article>
+
+              <article class="product-card court">
+                <div class="image-box">
+                  <img src="https://images.unsplash.com/photo-1689417663556-ec8ac23dd121?auto=format&fit=crop&w=900&q=80" alt="Static Court Low Sneaker in Weiss und Blau">
+                </div>
+                <div class="tag-row"><span class="tag">Court</span></div>
+                <h2 class="card-title">Static Court Low</h2>
+                <p>Sauberer Low-Top mit glatter Seitenlinie für minimalistische Fits.</p>
+                <div class="price-line"><span class="price">CHF 154</span><a class="button ghost" href="detail.html#street-icon">Details</a></div>
+              </article>
+
+              <article class="product-card running limited">
+                <div class="image-box">
+                  <img src="https://images.unsplash.com/photo-1715692965435-d181642ed2d2?auto=format&fit=crop&w=900&q=80" alt="Volt Dash Neo Sneaker in Blau und Gelb">
+                </div>
+                <div class="tag-row"><span class="tag">Running</span><span class="tag">Limited</span></div>
+                <h2 class="card-title">Volt Dash Neo</h2>
+                <p>Heller Speed-Look mit farbiger Spannung und leichter Mittelsohle.</p>
+                <div class="price-line"><span class="price">CHF 172</span><a class="button ghost" href="detail.html#apex-glide">Details</a></div>
+              </article>
+
+              <article class="product-card street">
+                <div class="image-box">
+                  <img src="https://images.unsplash.com/photo-1667314614144-70f573045acf?auto=format&fit=crop&w=900&q=80" alt="Metro Mono Sneaker in Weiss und Schwarz">
+                </div>
+                <div class="tag-row"><span class="tag">Street</span></div>
+                <h2 class="card-title">Metro Mono</h2>
+                <p>Monochrome Street-Silhouette für ein ruhiges, robustes Daily-Setup.</p>
+                <div class="price-line"><span class="price">CHF 148</span><a class="button ghost" href="detail.html#street-icon">Details</a></div>
+              </article>
+
+              <article class="product-card court limited">
+                <div class="image-box">
+                  <img src="https://images.unsplash.com/photo-1715691873663-912456b0593f?auto=format&fit=crop&w=900&q=80" alt="Phantom Hoop Mid Sneaker in dunklen Farben">
+                </div>
+                <div class="tag-row"><span class="tag">Court</span><span class="tag">Limited</span></div>
+                <h2 class="card-title">Phantom Hoop Mid</h2>
+                <p>Mid-Top mit dunkler Kante, gebaut für mehr Präsenz im Outfit.</p>
+                <div class="price-line"><span class="price">CHF 199</span><a class="button ghost" href="detail.html#carbon-sprint">Details</a></div>
+              </article>
+
+              <article class="product-card running">
+                <div class="image-box">
+                  <img src="https://images.unsplash.com/photo-1714396239546-f2f913567a19?auto=format&fit=crop&w=900&q=80" alt="Night Pulse Runner Sneaker in Schwarz und Weiss">
+                </div>
+                <div class="tag-row"><span class="tag">Running</span></div>
+                <h2 class="card-title">Night Pulse Runner</h2>
+                <p>Schwarze Laufsilhouette mit breiter Sohle und markanter Ruhe.</p>
+                <div class="price-line"><span class="price">CHF 176</span><a class="button ghost" href="detail.html#apex-glide">Details</a></div>
+              </article>
+
+              <article class="product-card street">
+                <div class="image-box">
+                  <img src="https://images.unsplash.com/photo-1689417663556-ec8ac23dd121?auto=format&fit=crop&w=900&q=80" alt="Concrete Hi 79 Sneaker in hellem Ton">
+                </div>
+                <div class="tag-row"><span class="tag">Street</span></div>
+                <h2 class="card-title">Concrete Hi '79</h2>
+                <p>Hochgezogene Street-Form mit klassischem Korpus und klarer Zehenbox.</p>
+                <div class="price-line"><span class="price">CHF 167</span><a class="button ghost" href="detail.html#street-icon">Details</a></div>
+              </article>
+
+              <article class="product-card court">
+                <div class="image-box">
+                  <img src="https://images.unsplash.com/photo-1715692965435-d181642ed2d2?auto=format&fit=crop&w=900&q=80" alt="Shift Dunk Pro Sneaker in Blau und Gelb">
+                </div>
+                <div class="tag-row"><span class="tag">Court</span></div>
+                <h2 class="card-title">Shift Dunk Pro</h2>
+                <p>Kräftiger Court-Look mit farbigem Impuls und mehr Volumen an der Seite.</p>
+                <div class="price-line"><span class="price">CHF 162</span><a class="button ghost" href="detail.html#street-icon">Details</a></div>
+              </article>
+
+              <article class="product-card running limited">
+                <div class="image-box">
+                  <img src="https://images.unsplash.com/photo-1715691873663-912456b0593f?auto=format&fit=crop&w=900&q=80" alt="Carbon Sprint Elite Sneaker in Schwarz und Blau">
+                </div>
+                <div class="tag-row"><span class="tag">Running</span><span class="tag">Limited</span></div>
+                <h2 class="card-title">Carbon Sprint Elite</h2>
+                <p>Performance-Sneaker mit dunkler Schale und aggressiver Seitenlinie.</p>
+                <div class="price-line"><span class="price">CHF 224</span><a class="button ghost" href="detail.html#carbon-sprint">Details</a></div>
+              </article>
+
+              <article class="product-card street limited">
+                <div class="image-box">
+                  <img src="https://images.unsplash.com/photo-1667314614144-70f573045acf?auto=format&fit=crop&w=900&q=80" alt="Outline Canvas Sneaker in hellem Schwarz-Weiss-Look">
+                </div>
+                <div class="tag-row"><span class="tag">Street</span><span class="tag">Limited</span></div>
+                <h2 class="card-title">Outline Canvas</h2>
+                <p>Flacher City-Sneaker mit gezeichneter Kante und ruhigem Kontrast.</p>
+                <div class="price-line"><span class="price">CHF 158</span><a class="button ghost" href="detail.html#order-form">Bestellen</a></div>
+              </article>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <section class="footer-box">
+          <h2 class="footer-brand">Brutal Step</h2>
+          <p>10 Sneaker, klare Kategorien und direkte Wege zur Detailseite.</p>
+        </section>
+        <section class="footer-box">
+          <h3>Shop</h3>
+          <ul class="footer-list">
+            <li><a href="index.html">Startseite</a></li>
+            <li><a href="detail.html">Detailseite</a></li>
+            <li><a href="kontakt.html">Kontakt</a></li>
+          </ul>
+        </section>
+        <section class="footer-box">
+          <h3>Info</h3>
+          <ul class="footer-list">
+            <li>Filter per Kategorie</li>
+            <li>Direktpreise in CHF</li>
+            <li>Bestellung über Formular</li>
+          </ul>
+        </section>
+      </div>
+    </footer>
+  </body>
+</html>
