@@ -1,6 +1,6 @@
 # Sole District - Styleguide
 
-Stand: 2026-04-29
+Stand: 2026-05-04
 
 Dieser Styleguide ist gegen die echten Dateien verifiziert:
 - `assets/css/styles.css`
@@ -349,6 +349,83 @@ CTA:
   - `#1a7f37`
 - Fehler:
   - `#b42318`
+
+## Layout, Spacing und Oberflächen
+
+### Layout-Tokens
+
+| Token | Wert | Verwendung |
+|---|---|---|
+| `--container` | `min(1180px, calc(100% - 2rem))` | Standardbreite für `container`, `hero` und `page-intro` |
+| `--radius-xl` | `32px` | grosse Panels wie `product-card`, `detail-panel`, `contact-form`, `newsletter-panel` |
+| `--radius-lg` | `24px` | Karten und innere Medienbereiche |
+| `--radius-md` | `18px` | mittlere Boxen wie `order-summary`, Hero-Stats |
+| `--radius-sm` | `14px` | Inputs und kleinere Formelemente |
+| `--shadow` | `0 20px 50px rgba(19, 19, 19, 0.12)` | Standard-Schatten für schwebende Karten und Panels |
+
+### Vertikaler Rhythmus
+
+- `section` und `hero` nutzen `padding: clamp(3rem, 6vw, 5rem) 0`
+- `page-intro` startet mit demselben oberen Abstand wie grosse Sections
+- Standard-Gap für viele Grid-Bauteile liegt zwischen `1.2rem` und `1.5rem`
+- `section-head` trennt Überschrift und Zusatzinhalt mit `margin-bottom: 1.8rem`
+
+### Grid- und Layout-Prinzipien
+
+- `hero`: 2 Spalten mit `1.15fr / 0.85fr`, unter `960px` einspaltig
+- `page-intro`: 2 Spalten, unter `960px` einspaltig
+- `editorial-grid`: 2 Spalten, unter `960px` einspaltig
+- `newsletter-panel`: 2 Spalten mit Copy und Formular, unter `960px` einspaltig
+- `contact-layout`: 2 Spalten mit Info-Card und Formular, unter `960px` einspaltig
+- `detail-hero`: 2 Spalten für Bild und Produktpanel, unter `960px` einspaltig
+- `detail-secondary`: 2 Spalten für Video und Bestellung, unter `960px` einspaltig
+- `form-grid`: 2 Spalten, unter `720px` einspaltig
+- `product-grid`: `repeat(auto-fill, minmax(240px, 1fr))`
+- `category-grid`: `repeat(auto-fit, minmax(170px, 1fr))`
+- `team-grid`: `repeat(auto-fit, minmax(230px, 1fr))`
+- `footer-grid`: 4 Spalten mit breiterer Brand-Spalte, unter `960px` einspaltig
+
+## Medienregeln
+
+### Bilder
+
+- Produktbilder in Karten und auf der Detailseite nutzen `object-fit: cover`
+- Das Bildverhältnis für Produktbilder liegt bei `4 / 4.8`
+- `product-card-media` ist relativ positioniert, damit Badges oben links über dem Bild liegen
+- Detailbilder erhalten innen zusätzlich `1rem` Padding und `border-radius: var(--radius-lg)`
+
+### Video
+
+- Der Video-Bereich nutzt ein festes `16:9`-Verhältnis über `padding-top: 56.25%`
+- Der Frame-Hintergrund ist `#000`
+- Das `iframe` füllt den kompletten Bereich absolut aus
+
+## Interaktion und Bewegung
+
+### Bewegungsprinzip
+
+- Standard-Transitions für Navigation, Buttons, Filter und Hover-Zustände: `180ms ease`
+- Produktbilder zoomen bei Karten-Hover mit `transform: scale(1.04)` und `260ms ease`
+- Hover-Lift:
+  - Buttons und Filter: `translateY(-2px)`
+  - Category Cards: `translateY(-4px)`
+  - Nav Toggle: `translateY(-1px)`
+
+### Navigation
+
+- Der Header ist `sticky` mit `top: 0` und `z-index: 30`
+- Der Header nutzt `backdrop-filter: blur(18px)` für den Glas-Effekt
+- Unter `960px` erscheint ein pillenförmiger Nav-Button
+- Im offenen mobilen Zustand wird die Navigation als eigener Panel-Block unter dem Brand gezeigt
+
+### States und Accessibility
+
+- Fokus-Zustand für Inputs, Selects und Textareas:
+  - `outline: 2px solid rgba(255, 106, 0, 0.25)`
+  - `border-color: rgba(255, 106, 0, 0.45)`
+- Deaktivierte Buttons zeigen `cursor: wait`
+- `.form-feedback` reserviert mit `min-height: 1.25rem` dauerhaft Platz, damit das Layout beim Statuswechsel nicht springt
+- Bei `prefers-reduced-motion: reduce` werden Animationen und Transitions abgeschaltet und `scroll-behavior` auf `auto` gesetzt
 
 ## Kurzfazit
 

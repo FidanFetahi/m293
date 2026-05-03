@@ -170,6 +170,27 @@ Die Website verfügt weiterhin über statische Seiten mit `HTML`, `CSS` und `Jav
 | Bestellformular | direkte Übermittlung an Formspree |
 | Newsletter | direkte Übermittlung an Formspree |
 
+### Dynamische Frontend-Logik
+
+- `assets/js/products-filter.js` filtert die Produktkarten direkt im Browser, aktualisiert den Ergebnistext live und schreibt den aktiven Filter als URL-Hash wie `#street` oder `#limited` in die Adresse.
+- `assets/js/product-detail.js` rendert die Detailseite vollständig über den Query-Parameter `?product=...`, aktualisiert `document.title` und die Meta-Description dynamisch und zeigt bei ungültigen Produkt-Slugs einen definierten Fehlerzustand.
+- `assets/js/mobile-nav.js` steuert die mobile Navigation inklusive `aria-expanded`, Schliessen per Klick ausserhalb, `Escape` und automatischem Reset beim Wechsel zur Desktop-Breite.
+
+### Formularverhalten im aktuellen Stand
+
+- `assets/js/form-submissions.js` prüft die Formulare vor dem Senden mit `reportValidity()`.
+- Der Versand an Formspree erfolgt per `fetch`, nicht nur über einen klassischen HTML-Post.
+- Während des Sendens wird der Submit-Button deaktiviert und im Formular ein Zwischenstatus angezeigt.
+- Nach dem Request erhalten Benutzer direkt im Formular eine Erfolgs- oder Fehlermeldung.
+- Bei erfolgreichem Versand werden die Formulare zurückgesetzt.
+- Zusätzlich wird die aktuelle Seiten-URL mitgesendet, damit Anfragen später einfacher zugeordnet werden können.
+- Das Bestellformular auf `detail.html` wird erst dynamisch gerendert und danach über das Custom Event `sole-district:detail-rendered` an die Versandlogik angebunden.
+
+### Weitere technische Hinweise
+
+- `Webshop.html` ist eine reine Redirect-Datei und leitet per `meta refresh` direkt auf `index.html` weiter.
+- Die Detailseite hat einen definierten Fallback: Ohne `?product=` wird standardmässig `Mono Court Low` geladen.
+
 ### Hinweis
 
 Damit du E-Mails bekommst, muss dein Formspree-Formular korrekt eingerichtet sein. Im kostenlosen Formspree-Plan erhält nur der Formularempfänger eine Benachrichtigung. Eine automatische Bestätigungs-Mail an den Kunden ist nur mit einem passenden kostenpflichtigen Formspree-Plan möglich.
