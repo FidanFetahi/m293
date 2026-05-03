@@ -15,22 +15,22 @@ Verifiziert gegen diese Dateien:
 
 ## Breakpoints und Regeln
 
-- Desktop: groesser als `960px`
+- Desktop: grösser als `960px`
 - Tablet: `721px` bis `960px`
 - Mobile: `720px` oder kleiner
-- Referenzbreite fuer die Wireframes Desktop: `1440px`
-- Referenzbreite fuer die Wireframes Tablet: `834px`
-- Referenzbreite fuer die Wireframes Mobile: `390px`
+- Referenzbreite für die Wireframes Desktop: `1440px`
+- Referenzbreite für die Wireframes Tablet: `834px`
+- Referenzbreite für die Wireframes Mobile: `390px`
 - Containerbreite: `min(1180px, calc(100% - 2rem))`
-- Navigation auf Tablet und Mobile: Menue-Button sichtbar, Navigation standardmaessig geschlossen, geoeffnet als voller Block unter dem Brand
+- Navigation auf Tablet und Mobile: Menü-Button sichtbar, Navigation standardmässig geschlossen, geöffnet als voller Block unter dem Brand
 - `hero`, `page-intro`, `newsletter-panel`, `detail-hero`, `detail-secondary`, `contact-layout`, `editorial-grid`, `footer-grid`: ab `960px` und kleiner einspaltig
 - `form-grid`: ab `720px` und kleiner einspaltig
 - `product-grid`: `repeat(auto-fill, minmax(240px, 1fr))`
 - `category-grid`: `repeat(auto-fit, minmax(170px, 1fr))`
 - `team-grid`: `repeat(auto-fit, minmax(230px, 1fr))`
 - `detail.html` wird nach dem Laden per JavaScript neu gerendert
-- `detail.html` ohne `?product=` zeigt standardmaessig `Mono Court Low`
-- `detail.html` mit ungueltigem `?product=` zeigt einen Fehlerzustand
+- `detail.html` ohne `?product=` zeigt standardmässig `Mono Court Low`
+- `detail.html` mit ungültigem `?product=` zeigt einen Fehlerzustand
 
 ## index.html
 
@@ -86,7 +86,7 @@ Verifiziert gegen diese Dateien:
 | TOPBAR                                                                               |
 +--------------------------------------------------------------------------------------+
 | HEADER                                                                               |
-| [SD Brand + Sole District]                                           [Menue-Button] |
+| [SD Brand + Sole District]                                           [Menü-Button] |
 | Nav default: geschlossen                                                               |
 | Nav offen:                                                                            |
 | [Start]                                                                               |
@@ -138,7 +138,7 @@ Verifiziert gegen diese Dateien:
 | TOPBAR                                                                 |
 +------------------------------------------------------------------------+
 | HEADER                                                                 |
-| [SD Brand]                                              [Menue-Button] |
+| [SD Brand]                                              [Menü-Button] |
 | Nav default: geschlossen                                               |
 | Nav offen: 4 gestapelte Vollbreiten-Links                              |
 +------------------------------------------------------------------------+
@@ -150,7 +150,7 @@ Verifiziert gegen diese Dateien:
 | - Stats gestapelt:                                                     |
 |   [10 kuratierte Sneaker]                                              |
 |   [5 Kategorien]                                                       |
-|   [24h Drop-Vorankuendigung]                                           |
+|   [24h Drop-Vorankündigung]                                            |
 | [Featured Drop Card]                                                   |
 | [Warum dieser Shop? Card]                                              |
 +------------------------------------------------------------------------+
@@ -199,10 +199,10 @@ Standardzustand beim ersten Laden:
 ```text
 +--------------------------------------------------------------------------------------------------+
 | TOPBAR                                                                                           |
-| Neue Releases, Restocks und Weekend Specials aus Zuerich.                                        |
+| Neue Releases, Restocks und Weekend Specials aus Zürich.                                         |
 +--------------------------------------------------------------------------------------------------+
 | STICKY HEADER                                                                                    |
-| [SD Brand + Sole District]                   [Start] [Produkte] [Kontakt] [Drop auswaehlen]     |
+| [SD Brand + Sole District]                   [Start] [Produkte] [Kontakt] [Drop auswählen]      |
 +--------------------------------------------------------------------------------------------------+
 | PAGE INTRO (2 Spalten)                                                                           |
 | Left: Eyebrow + H1                               | Right: Lead                                    |
@@ -233,13 +233,13 @@ Standardzustand beim ersten Laden:
 | TOPBAR                                                                               |
 +--------------------------------------------------------------------------------------+
 | HEADER                                                                               |
-| [SD Brand + Sole District]                                           [Menue-Button] |
+| [SD Brand + Sole District]                                           [Menü-Button] |
 | Nav default: geschlossen                                                               |
 | Nav offen:                                                                            |
 | [Start]                                                                               |
 | [Produkte]                                                                            |
 | [Kontakt]                                                                             |
-| [Drop auswaehlen]                                                                     |
+| [Drop auswählen]                                                                      |
 +--------------------------------------------------------------------------------------+
 | PAGE INTRO                                                                            |
 | - Eyebrow                                                                             |
@@ -278,7 +278,7 @@ Standardzustand beim ersten Laden:
 | TOPBAR                                                                 |
 +------------------------------------------------------------------------+
 | HEADER                                                                 |
-| [SD Brand]                                              [Menue-Button] |
+| [SD Brand]                                              [Menü-Button] |
 | Nav default: geschlossen                                               |
 | Nav offen: 4 gestapelte Vollbreiten-Links                              |
 +------------------------------------------------------------------------+
@@ -325,10 +325,10 @@ Standardzustand beim ersten Laden:
 ## detail.html
 
 Wichtiger Abgleich:
-- Die statische HTML-Huelle wird durch `assets/js/product-detail.js` ersetzt
+- Die statische HTML-Hülle wird durch `assets/js/product-detail.js` ersetzt
 - Ohne Query-Parameter wird `Mono Court Low` gerendert
-- Mit gueltigem `?product=` wird dieselbe Struktur mit anderen Inhalten gerendert
-- Mit ungueltigem `?product=` wird ein Fehler-Panel statt des Produktlayouts gezeigt
+- Mit gültigem `?product=` wird dieselbe Struktur mit anderen Inhalten gerendert
+- Mit ungültigem `?product=` wird ein Fehler-Panel statt des Produktlayouts gezeigt
 
 ### Desktop
 
@@ -341,7 +341,7 @@ Wichtiger Abgleich:
 | [SD Brand + Sole District]                   [Start] [Produkte] [Kontakt] [Bestellen]           |
 +--------------------------------------------------------------------------------------------------+
 | MAIN (Standard: Mono Court Low)                                                                  |
-| [Back-Link: Zurueck zur Uebersicht]                                                              |
+| [Back-Link: Zurück zur Übersicht]                                                               |
 |                                                                                                  |
 | DETAIL HERO (2 Spalten)                                                                          |
 | Left column                                     | Right column                                   |
@@ -358,7 +358,7 @@ Wichtiger Abgleich:
 | - Eyebrow: Video                                 - Eyebrow: Bestellformular                       |
 | - H2                                             - H2                                              |
 | - 16:9 YouTube Embed                             - Beschreibung                                    |
-| - Caption                                        - Form Grid 2x2: Groesse / Menge / Name / Email |
+| - Caption                                        - Form Grid 2x2: Grösse / Menge / Name / Email  |
 |                                                  - Lieferadresse                                   |
 |                                                  - Notiz                                           |
 |                                                  - Button                                          |
@@ -377,7 +377,7 @@ Wichtiger Abgleich:
 | TOPBAR                                                                               |
 +--------------------------------------------------------------------------------------+
 | HEADER                                                                               |
-| [SD Brand + Sole District]                                           [Menue-Button] |
+| [SD Brand + Sole District]                                           [Menü-Button] |
 | Nav default: geschlossen                                                               |
 | Nav offen:                                                                            |
 | [Start]                                                                               |
@@ -412,7 +412,7 @@ Wichtiger Abgleich:
 | TOPBAR                                                                 |
 +------------------------------------------------------------------------+
 | HEADER                                                                 |
-| [SD Brand]                                              [Menue-Button] |
+| [SD Brand]                                              [Menü-Button] |
 | Nav default: geschlossen                                               |
 | Nav offen: 4 gestapelte Vollbreiten-Links                              |
 +------------------------------------------------------------------------+
@@ -429,7 +429,7 @@ Wichtiger Abgleich:
 | - 4 Specs                                                              |
 | [Video Panel]                                                          |
 | [Order Form]                                                           |
-| - Groesse                                                              |
+| - Grösse                                                               |
 | - Menge                                                                |
 | - Name                                                                 |
 | - E-Mail                                                               |
@@ -449,7 +449,7 @@ Wichtiger Abgleich:
 +------------------------------------------------------------------------+
 ```
 
-Sonderfall bei ungueltigem `?product=`:
+Sonderfall bei ungültigem `?product=`:
 
 ```text
 +------------------------------------------------------------------------+
@@ -459,7 +459,7 @@ Sonderfall bei ungueltigem `?product=`:
 | - H1: Dieses Modell existiert nicht mehr.                              |
 | - Beschreibung                                                         |
 | - Angefragter Produkt-Slug                                             |
-| - Button zur Produktuebersicht                                         |
+| - Button zur Produktübersicht                                          |
 +------------------------------------------------------------------------+
 ```
 
@@ -501,7 +501,7 @@ Sonderfall bei ungueltigem `?product=`:
 | TOPBAR                                                                               |
 +--------------------------------------------------------------------------------------+
 | HEADER                                                                               |
-| [SD Brand + Sole District]                                           [Menue-Button] |
+| [SD Brand + Sole District]                                           [Menü-Button] |
 | Nav default: geschlossen                                                               |
 | Nav offen:                                                                            |
 | [Start]                                                                               |
@@ -540,7 +540,7 @@ Sonderfall bei ungueltigem `?product=`:
 | TOPBAR                                                                 |
 +------------------------------------------------------------------------+
 | HEADER                                                                 |
-| [SD Brand]                                              [Menue-Button] |
+| [SD Brand]                                              [Menü-Button] |
 | Nav default: geschlossen                                               |
 | Nav offen: 4 gestapelte Vollbreiten-Links                              |
 +------------------------------------------------------------------------+

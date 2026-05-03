@@ -20,12 +20,12 @@
       imagePage: 'https://unsplash.com/photos/QbDe8JxtUp0',
       videoId: 'tBaGgxXgSrw',
       summary: 'Cleanes Low-Top mit kontrastreichem Blocking und griffiger Cupsole.',
-      description: 'Mono Court Low ist der Daily Pairing-Sneaker fuer reduzierte Fits. Die Silhouette bleibt ruhig, die Sohle stabil und das Farbsetup laesst sich mit Denim, Workwear und Tailoring kombinieren.',
+      description: 'Mono Court Low ist der Daily Pairing-Sneaker für reduzierte Fits. Die Silhouette bleibt ruhig, die Sohle stabil und das Farbsetup lässt sich mit Denim, Workwear und Tailoring kombinieren.',
       specs: [
-        'Glattes Obermaterial mit verstaerkter Toebox',
-        'Gepolsterter Collar fuer lange Tage in der Stadt',
+        'Glattes Obermaterial mit verstärkter Toebox',
+        'Gepolsterter Collar für lange Tage in der Stadt',
         'Cupsole mit sicherem Grip auf Asphalt und Beton',
-        'Ideal fuer Alltag, Travel und Office-to-Street Looks'
+        'Ideal für Alltag, Travel und Office-to-Street Looks'
       ]
     },
     'crimson-flight-high': {
@@ -42,12 +42,12 @@
       imagePage: 'https://unsplash.com/photos/WlDNoK28rtc',
       videoId: 'Cp_bI7SEIxU',
       summary: 'Statement Pair mit hellem Hintergrund, klarem Rotton und sauberer Studio-Wirkung.',
-      description: 'Crimson Court setzt auf eine klare Studio-Praesenz mit rotem Upper und sauberem Weissanteil. Das Modell wirkt reduzierter als zuvor und passt besser zu auffaelligen Streetwear-Fits mit hellerem Gesamtbild.',
+      description: 'Crimson Court setzt auf eine klare Studio-Präsenz mit rotem Upper und sauberem Weissanteil. Das Modell wirkt reduzierter als zuvor und passt besser zu auffälligen Streetwear-Fits mit hellerem Gesamtbild.',
       specs: [
-        'Saubere Court-Silhouette mit klarer Studio-Praesenz',
-        'Roter Upper mit heller Basis fuer mehr Kontrast',
-        'Stabiler Grip fuer Stadt, Events und Weekend Rotation',
-        'Geeignet fuer auffaellige Fits mit hellerem Gesamtlook'
+        'Saubere Court-Silhouette mit klarer Studio-Präsenz',
+        'Roter Upper mit heller Basis für mehr Kontrast',
+        'Stabiler Grip für Stadt, Events und Weekend Rotation',
+        'Geeignet für auffällige Fits mit hellerem Gesamtlook'
       ]
     },
     'graphite-pulse': {
@@ -60,16 +60,16 @@
       stock: 'Sofort lieferbar',
       sizes: ['39', '40', '41', '42', '43', '44', '45'],
       imageSrc: 'https://unsplash.com/photos/PHJr-VdFO2o/download?force=true&w=1800',
-      imageAlt: 'Grauer Sneaker mit schwarzer Sohle auf heller Flaeche.',
+      imageAlt: 'Grauer Sneaker mit schwarzer Sohle auf heller Fläche.',
       imagePage: 'https://unsplash.com/photos/PHJr-VdFO2o',
       videoId: 'oeO2B357Ra0',
-      summary: 'Daempfungsstarker Runner fuer lange Wege, Pendeln und leichte Sessions.',
-      description: 'Graphite Pulse ist auf Komfort und ruhige Performance ausgelegt. Die Form rollt weich ab, bleibt im Look aber clean genug fuer Alltag, Pendeln und moderne Techwear-Kombinationen.',
+      summary: 'Dämpfungsstarker Runner für lange Wege, Pendeln und leichte Sessions.',
+      description: 'Graphite Pulse ist auf Komfort und ruhige Performance ausgelegt. Die Form rollt weich ab, bleibt im Look aber clean genug für Alltag, Pendeln und moderne Techwear-Kombinationen.',
       specs: [
-        'Leichte Performance-Sohle mit softer Daempfung',
+        'Leichte Performance-Sohle mit softer Dämpfung',
         'Atmungsaktives Mesh-Obermaterial',
-        'Zuglasche fuer schnelles On-and-Off',
-        'Stark fuer lange Tage und leichte Trainingseinheiten'
+        'Zuglasche für schnelles On-and-Off',
+        'Stark für lange Tage und leichte Trainingseinheiten'
       ]
     },
     'terrace-cream': {
@@ -89,9 +89,9 @@
       description: 'Terrace Cream bringt den klassischen Terrace-Ansatz in eine ruhige, tragbare Farbwelt. Die Silhouette ist schmal, direkt und wirkt mit Gum-Sohle besonders stark zu Denim, Chinos und Knitwear.',
       specs: [
         'Schlanke Terrace-Form mit flachem Aufbau',
-        'Gum Outsole fuer klassischen Terrace-Charakter',
-        'Ruhige Farbgebung fuer vielseitige Kombinationen',
-        'Ideal fuer Alltag, Reisen und Matchday-Looks'
+        'Gum Outsole für klassischen Terrace-Charakter',
+        'Ruhige Farbgebung für vielseitige Kombinationen',
+        'Ideal für Alltag, Reisen und Matchday-Looks'
       ]
     },
     'canvas-rise-offwhite': {
@@ -111,8 +111,8 @@
       description: 'Canvas Rise Offwhite lebt von einer reduzierten Retro-Sprache und einem hellen, unkomplizierten Look. Das Modell passt gut in minimalistische Rotationen und funktioniert stark mit cleanen Layering-Fits.',
       specs: [
         'Canvas-inspiriertes Obermaterial mit leichter Struktur',
-        'High-Top Collar fuer klassischen Retro-Stand',
-        'Offwhite-Finish fuer weiche Vintage-Wirkung',
+        'High-Top Collar für klassischen Retro-Stand',
+        'Offwhite-Finish für weiche Vintage-Wirkung',
         'Einfach kombinierbar mit Denim und Workwear'
       ]
     },
@@ -129,13 +129,13 @@
       imageAlt: 'Schwarz-weisser High-Top Sneaker auf dunklem Stoffuntergrund.',
       imagePage: 'https://unsplash.com/photos/nEyC-cooHTc',
       videoId: 'Qadabc0hq-U',
-      summary: 'Dunkle High-Top Interpretation fuer monochrome Outfits und Abendlooks.',
-      description: 'Nightshift High ist das passende Pair fuer dunklere Rotationen und saubere monochrome Fits. Die klassische High-Top-Hoehe trifft auf ein reduziertes Schwarz-Weiss-Setup mit klarem Street-Appeal.',
+      summary: 'Dunkle High-Top Interpretation für monochrome Outfits und Abendlooks.',
+      description: 'Nightshift High ist das passende Pair für dunklere Rotationen und saubere monochrome Fits. Die klassische High-Top-Höhe trifft auf ein reduziertes Schwarz-Weiss-Setup mit klarem Street-Appeal.',
       specs: [
         'Klassischer High-Top Aufbau mit festem Halt',
-        'Monochromes Farbsetup fuer cleane Kombinationen',
-        'Robuste Sohle fuer taeglichen Einsatz',
-        'Stark fuer Abendlooks und dunkle Fits'
+        'Monochromes Farbsetup für cleane Kombinationen',
+        'Robuste Sohle für täglichen Einsatz',
+        'Stark für Abendlooks und dunkle Fits'
       ]
     },
     'grey-day-runner': {
@@ -152,12 +152,12 @@
       imagePage: 'https://unsplash.com/photos/tgdgb6yb0Qo',
       videoId: 'oeO2B357Ra0',
       summary: 'Komfortfokussierter Runner mit ruhiger Farbwelt und softer Abrollbewegung.',
-      description: 'Grey Day Runner liefert den ruhigsten Performance-Look in der Rotation. Die Silhouette bleibt technisch, wirkt aber nicht laut und ist damit stark fuer Alltag, Travel und lange City-Tage.',
+      description: 'Grey Day Runner liefert den ruhigsten Performance-Look in der Rotation. Die Silhouette bleibt technisch, wirkt aber nicht laut und ist damit stark für Alltag, Travel und lange City-Tage.',
       specs: [
-        'Performance-Daempfung fuer lange Strecken',
-        'Silberne Details fuer dezente Technik-Optik',
-        'Leichtes Upper mit guter Belueftung',
-        'Entspannt fuer Alltag, Commute und Wochenenden'
+        'Performance-Dämpfung für lange Strecken',
+        'Silberne Details für dezente Technik-Optik',
+        'Leichtes Upper mit guter Belüftung',
+        'Entspannt für Alltag, Commute und Wochenenden'
       ]
     },
     'citrus-sprint': {
@@ -174,12 +174,12 @@
       imagePage: 'https://unsplash.com/photos/1vHAP0oeUQE',
       videoId: 't4ZfRsUl9KA',
       summary: 'Street Pair mit lautem Farbakzent und sportlicher Grundform.',
-      description: 'Citrus Sprint bringt klare Sommerenergie in die Rotation. Das Modell lebt vom orangen Signalton, bleibt aber durch die schwarze und weisse Basis tragbar fuer taegliche Streetwear-Kombinationen.',
+      description: 'Citrus Sprint bringt klare Sommerenergie in die Rotation. Das Modell lebt vom orangen Signalton, bleibt aber durch die schwarze und weisse Basis tragbar für tägliche Streetwear-Kombinationen.',
       specs: [
-        'Sportliche Grundform mit dynamischer Linienfuehrung',
-        'Starker Farbkontrast fuer auffaellige Fits',
-        'Leichte Polsterung fuer Alltag und City-Wear',
-        'Ideal fuer Fruehling, Sommer und Festival-Looks'
+        'Sportliche Grundform mit dynamischer Linienführung',
+        'Starker Farbkontrast für auffällige Fits',
+        'Leichte Polsterung für Alltag und City-Wear',
+        'Ideal für Frühling, Sommer und Festival-Looks'
       ]
     },
     'jade-one': {
@@ -192,16 +192,16 @@
       stock: 'Nur noch 2 Paare',
       sizes: ['40', '41', '42', '43', '44'],
       imageSrc: 'https://unsplash.com/photos/kKObh7tUPNc/download?force=true&w=1800',
-      imageAlt: 'Tuerkiser High-Top Sneaker in Nahaufnahme.',
+      imageAlt: 'Türkiser High-Top Sneaker in Nahaufnahme.',
       imagePage: 'https://unsplash.com/photos/kKObh7tUPNc',
       videoId: '-Wo_zltHEGY',
-      summary: 'Sammlerorientierter High-Top mit kuehler Jadefarbe und klarer Kante.',
-      description: 'Jade One ist auf Aufmerksamkeit und Sammlerwert ausgelegt. Die kuehle Farbwelt, der hohe Schnitt und die kleine Verfuegbarkeit machen das Paar zum klaren Limited-Highlight im Sortiment.',
+      summary: 'Sammlerorientierter High-Top mit kühler Jadefarbe und klarer Kante.',
+      description: 'Jade One ist auf Aufmerksamkeit und Sammlerwert ausgelegt. Die kühle Farbwelt, der hohe Schnitt und die kleine Verfügbarkeit machen das Paar zum klaren Limited-Highlight im Sortiment.',
       specs: [
         'High-Top mit markanter Farbdominanz',
         'Teal-Ton als Sammler-Statement',
-        'Kleine Verfuegbarkeit fuer exklusive Rotation',
-        'Gemacht fuer Collector-Fits und Display-Shelf'
+        'Kleine Verfügbarkeit für exklusive Rotation',
+        'Gemacht für Collector-Fits und Display-Shelf'
       ]
     },
     'studio-white-high': {
@@ -217,13 +217,13 @@
       imageAlt: 'Weisser High-Top Sneaker freigestellt auf hellem Hintergrund.',
       imagePage: 'https://unsplash.com/photos/B6LFgATILWI',
       videoId: 'RRTDd7l5TlY',
-      summary: 'Heller High-Top als ruhiges Grundmodell fuer minimalistische Rotationen.',
-      description: 'Studio White High ist das cleane Basis-Paar fuer reduzierte Outfits. Die helle Farbwelt haelt sich zurueck, waehrend die High-Top-Form trotzdem genug Haltung fuer eine komplette Rotation liefert.',
+      summary: 'Heller High-Top als ruhiges Grundmodell für minimalistische Rotationen.',
+      description: 'Studio White High ist das cleane Basis-Paar für reduzierte Outfits. Die helle Farbwelt hält sich zurück, während die High-Top-Form trotzdem genug Haltung für eine komplette Rotation liefert.',
       specs: [
         'Klares White-on-White Erscheinungsbild',
-        'High-Top Shape fuer klassischen Stand',
-        'Vielseitig fuer reduzierte und helle Fits',
-        'Stark als Daily Pair ueber mehrere Saisons'
+        'High-Top Shape für klassischen Stand',
+        'Vielseitig für reduzierte und helle Fits',
+        'Stark als Daily Pair über mehrere Saisons'
       ]
     }
   };
@@ -265,7 +265,7 @@
 
   const descriptionTag = document.querySelector('meta[name="description"]');
   if (descriptionTag) {
-    descriptionTag.setAttribute('content', `${product.name} mit Preis, Bildern, Quick Facts und Bestellmoeglichkeit.`);
+    descriptionTag.setAttribute('content', `${product.name} mit Preis, Bildern, Quick Facts und Bestellmöglichkeit.`);
   }
 
   const sizeOptions = product.sizes
@@ -304,7 +304,7 @@
               <strong>Quick Facts</strong>
               <span>Release: ${product.drop}</span>
               <span>Farbe: ${product.colorway}</span>
-              <span>Groessen: ${product.sizes.join(' / ')}</span>
+              <span>Grössen: ${product.sizes.join(' / ')}</span>
             </div>
             <ul class='spec-list'>
               ${specItems}
@@ -335,12 +335,12 @@
             <input type='hidden' name='formType' value='Bestellung'>
             <input type='hidden' name='productName' value='${product.name}'>
             <input type='hidden' name='productSlug' value='${resolvedSlug}'>
-            <input type='hidden' name='_subject' value='Neue Bestellung fuer ${product.name}'>
+            <input type='hidden' name='_subject' value='Neue Bestellung für ${product.name}'>
               <div class='form-grid'>
                 <label>
-                  Groesse
+                  Grösse
                   <select name='size' required>
-                    <option value=''>Bitte waehlen</option>
+                    <option value=''>Bitte wählen</option>
                     ${sizeOptions}
                   </select>
                 </label>
@@ -366,7 +366,7 @@
                 <textarea name='note' rows='4' placeholder='Zum Beispiel Wunsch zur Lieferung oder Fragen zur Passform'></textarea>
               </label>
               <button class='button button-primary' type='submit'>Bestellung direkt senden</button>
-              <p class='form-note'>Deine Bestellung wird direkt an unser Team uebermittelt.</p>
+              <p class='form-note'>Deine Bestellung wird direkt an unser Team übermittelt.</p>
               <p class='form-feedback' aria-live='polite'></p>
           </form>
         </section>
